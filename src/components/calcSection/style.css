@@ -1,0 +1,185 @@
+/* --------calc---------------------------------------------------------------------- */
+.calc-section {
+  width: 355px;
+  height: 360px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+/* -------Bill----------------------------------------------------------------------- */
+
+.bill {
+  height: 60px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.bill--title {
+  height: 20px;
+  position: relative;
+  top: 10px;
+  margin-bottom: 5px;
+}
+.bill--input {
+  height: 40px;
+  width: 100%;
+  background: url("./../../img/icon-dollar.svg") no-repeat 15px center;
+  padding-left: 30px;
+  background-color: var(--Very-light-grayish-cyan);
+  text-align: right;
+  font-family: "Space Mono", sans-serif;
+  font-size: 24px;
+  color: var(--Very-dark-cyan);
+  font-weight: 600;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+
+.bill--input:focus {
+  outline: 2px solid #a0e8df;
+}
+
+.bill--input::placeholder {
+  color: var(--Grayish-cyan);
+}
+
+.bill--input:focus::placeholder {
+  color: var(--Very-light-grayish-cyan);
+}
+
+/* ----------Select Tip-------------------------------------------------------------------- */
+
+.select-tip {
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+.select-tip--title {
+  height: 20px;
+  position: relative;
+  top: 10px;
+  margin-bottom: 15px;
+}
+
+.radio-inputs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 15px;
+}
+
+.radio__tip {
+  overflow: hidden;
+  display: none;
+}
+.radio__label {
+  background-color: var(--Very-dark-cyan);
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  color: var(--White);
+  font-family: "Space Mono", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.radio__tip:checked + .radio__label {
+  background-color: #a0e8df;
+  color: var(--Very-dark-cyan);
+}
+
+.tip__digit {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.tip--input {
+  height: 40px;
+  width: 90px;
+  font-family: "Space Mono", sans-serif;
+  text-align: right;
+  background-color: var(--Very-light-grayish-cyan);
+  font-size: 24px;
+  color: var(--Very-dark-cyan);
+  font-weight: 600;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+
+.tip--input:focus {
+  outline: 2px solid #a0e8df;
+  padding-right: 15px;
+}
+
+.tip--input:placeholder-shown {
+  padding-right: 0px;
+}
+
+.tip--input::placeholder {
+  color: var(--Dark-grayish-cyan);
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+}
+
+.tip--input:focus::placeholder {
+  color: var(--Very-light-grayish-cyan);
+}
+
+/* --------Number of People---------------------------------------------------------------------- */
+
+.number-of-peple {
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+}
+
+.number-of--title {
+  height: 20px;
+  position: relative;
+  top: 10px;
+  margin-bottom: 5px;
+}
+
+.zero--title {
+  text-align: right;
+  color: var(--Warning);
+}
+
+.warning {
+  outline: 2px solid var(--Warning);
+}
+
+.none {
+  display: none;
+}
+
+.number-of-people--input {
+  height: 40px;
+  width: 100%;
+  background: url("./../../img/icon-person.svg") no-repeat 15px center;
+  padding-left: 30px;
+  background-color: var(--Very-light-grayish-cyan);
+  text-align: right;
+  font-family: "Space Mono", sans-serif;
+  font-size: 24px;
+  color: var(--Very-dark-cyan);
+  font-weight: 600;
+  border-radius: 5px;
+  padding-right: 15px;
+}
+
+.number-of-people--input:focus {
+  outline: 2px solid #a0e8df;
+}
+
+.number-of-people--input::placeholder {
+  color: var(--Grayish-cyan);
+}
+
+.number-of-people--input:focus::placeholder {
+  color: var(--Very-light-grayish-cyan);
+}

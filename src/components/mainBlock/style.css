@@ -1,0 +1,13 @@
+.main-block {
+  background-color: var(--White);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 780px) {
+  .main-block {
+    flex-direction: column;
+  }
+}

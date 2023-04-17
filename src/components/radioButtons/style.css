@@ -1,0 +1,27 @@
+.radio__tip {
+  overflow: hidden;
+  display: none;
+}
+.radio__label {
+  background-color: var(--Very-dark-cyan);
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+  color: var(--White);
+  font-family: "Space Mono", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.radio__tip:checked + .radio__label {
+  background-color: #a0e8df;
+  color: var(--Very-dark-cyan);
+}
+
+.tip__digit {
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
